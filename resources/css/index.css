@@ -1,0 +1,194 @@
+
+body {background-color: rgb(255, 255, 255);}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontajner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(../images/uvodny_obraz1.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box; 
+}
+
+
+
+.menu{
+    display: inline-flex;
+    align-items: center
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+
+     
+}
+
+.logo{
+    padding-right: 60px;
+    margin-left: -50px;
+    margin-top: 10px;
+
+}
+
+.nadpis{
+    color: azure;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 300px;
+}
+
+.vypredaj_obrazok{
+    text-align: center;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.zlava{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: -35px;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+button{
+    width: 180px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding:  5px 1px 5px 1px;
+    background: rgb(204, 28, 28);
+    border: 0;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: 540px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.pata{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 38px;
+    text-align: center;
+    
+}
+
+.doprava_obrazok{
+    text-align: center;
+    margin-top: 25px;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+.televizory:hover{
+    transform: translateY(-5px);
+}
+
+.televizory {
+    transition: transform 0.5s;
+}
+
+.telefony:hover{
+    transform: translateY(-5px);
+}
+
+.telefony {
+    transition: transform 0.5s;
+}
+
+.sluchadla:hover{
+    transform: translateY(-5px);
+}
+
+.sluchadla {
+    transition: transform 0.5s;
+}
+
+.notebooky:hover{
+    transform: translateY(-5px);
+}
+
+.notebooky {
+    transition: transform 0.5s;
+}
+
+.pracky:hover{
+    transform: translateY(-5px);
+}
+
+.pracky {
+    transition: transform 0.5s;
+}
+
+.o_nas:hover{
+    transform: translateY(-5px);
+}
+
+.o_nas {
+    transition: transform 0.5s;
+}
+
+.ikona_m{
+    margin-top: 8px;
+}
+
+.ikona_m:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.ikona_m {
+    transition: transform 0.5s;
+}
+
+.vypredaj_obrazok:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.vypredaj_obrazok {
+    transition: transform 0.5s;
+}
+
+.doprava_obrazok:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.doprava_obrazok {
+    transition: transform 0.5s;
+}
+

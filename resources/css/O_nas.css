@@ -1,0 +1,330 @@
+body {background-color: rgb(33, 21, 63);}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontajner {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.menu_kontajner{
+    background-color: rgb(64, 117, 160);
+    background-size: 200%;
+    margin-left: -47px;
+    margin-right: -45px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: -35px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+
+     
+}
+
+.logo{
+    padding-right: 60px;
+    margin-left: 74px;
+    margin-top: 10px;
+
+}
+
+.nadpis{
+    color: azure;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 300px;
+}
+
+.televizory:hover{
+    transform: translateY(-5px);
+}
+
+.televizory {
+    transition: transform 0.5s;
+}
+
+.telefony:hover{
+    transform: translateY(-5px);
+}
+
+.telefony {
+    transition: transform 0.5s;
+}
+
+.sluchadla:hover{
+    transform: translateY(-5px);
+}
+
+.sluchadla {
+    transition: transform 0.5s;
+}
+
+.notebooky:hover{
+    transform: translateY(-5px);
+}
+
+.notebooky {
+    transition: transform 0.5s;
+}
+
+.pracky:hover{
+    transform: translateY(-5px);
+}
+
+.pracky {
+    transition: transform 0.5s;
+}
+
+.o_nas:hover{
+    transform: translateY(-5px);
+}
+
+.o_nas {
+    transition: transform 0.5s;
+}
+
+.ikona_m{
+    margin-top: 8px;
+    margin-left: 115px;
+}
+
+.ikona_m:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.ikona_m {
+    transition: transform 0.5s;
+}
+
+.televízory{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    margin-bottom: -40px;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+h2{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+button{
+    width: 200px;
+    color: rgba(255, 255, 255, 100%);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding:  5px 1px 5px 1px;
+    background: hsla(0, 75.9%, 45.5%, 100%);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: 620px;
+    margin-top: 20px;
+
+}
+
+.pata{
+    text-align: center;
+    color: azure;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.mapa{
+    text-align: center;
+}
+
+.moja_fotka{
+    margin-top: 70px;
+    padding-top: 8px;
+}
+
+.meno_priezvisko{
+    margin-top: 10px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.trieda{
+    margin-top: 10px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.moje_info{
+    width: 22%;
+    background-color: rgb(64, 117, 160);
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.text_ja{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+li{
+    color: azure;
+}
+
+.obsah_onas{
+    /*overflow: auto;
+    resize: both;*/
+    margin-left: 40px;
+    margin-top: -610px;
+}
+
+.kto_sme{
+    width: 74%;
+}
+
+fieldset{
+    color:azure;
+    padding: 10px;
+    background-color: rgb(64, 117, 160);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.kontaktne{
+    width: 40%;
+}
+
+.vyplnenie{
+    width: 40%;
+}
+
+.formular{
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.video_stranky{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    margin-left: -170px;
+    margin-top: -730px;
+}
+
+.video{
+    margin-left: 800px;
+    margin-top: -690px;
+    margin-bottom: 200px;
+}
+
+.video_mp4{
+    margin-top: 40px;
+    margin-left: -150px;
+}
+
+.nahravka_txt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -170px;
+    color: azure;
+    
+}
+
+.nahravka{
+    margin-left: 800px;
+    margin-top: -170px;
+    margin-bottom: 100px;
+
+}
+
+.nahravka_1{
+    margin-left: -150px;
+    margin-top: 20px;
+}
+
+.stranky{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+.zoznam{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.mail{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(64, 117, 160);
+    width: 41%;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+legend{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.zoznam1 a:link{
+    color: black;
+}
+
+.zoznam1 a:visited{
+    color: red;
+}
+
+.zoznam1 a:hover{
+    color: yellow;
+}
+
+.zoznam1 a:active{
+    color: green;
+}
+
+.zoznam1 a:focus{
+    width: 30%;
+}
